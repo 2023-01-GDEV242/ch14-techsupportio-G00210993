@@ -25,6 +25,8 @@ public class Responder
     private ArrayList<String> defaultResponses;
     // The name of the file containing the default responses.
     private static final String FILE_OF_DEFAULT_RESPONSES = "default.txt";
+    // The name of the file containing the keyword responses.
+    private static final String FILE_OF_KEYWORD_RESPONSES = "responsemap.txt";    
     private Random randomGenerator;
 
     /**
